@@ -6,7 +6,7 @@ contact_list=[]
 while True:
     response = input('\nEnter menu choice: ')
     if response == '1':
-        print("================== CONTACT LIST ==================\n")
+        print("================== CONTACT LIST ==================")
         contacts.print_list(contact_list)
         
     elif response == '2':
